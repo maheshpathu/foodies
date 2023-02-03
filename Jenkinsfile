@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'slavenode1'
+        label 'slavenode2'
     }
     environment {
         FOODIES_GIT_PAT = credentials('foodiespat')
